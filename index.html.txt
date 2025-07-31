@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, accessible, and SEO-friendly web page built with HTML5 semantic elements.">
+    <title>Accessible and SEO-Friendly Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Accessible Web Page</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>This web page demonstrates the use of HTML5 semantic tags to create a structure that is readable by humans and machines alike. It follows best practices for accessibility and SEO.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <article>
+                <h3>Semantic HTML5 Structure</h3>
+                <p>The page uses elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> for clear layout.</p>
+            </article>
+            <article>
+                <h3>Accessibility</h3>
+                <p>Elements include proper landmarks, descriptive links, and <code>alt</code> text to support screen readers and assistive technologies.</p>
+            </article>
+            <article>
+                <h3>SEO Optimization</h3>
+                <p>Heading tags follow a logical order, and metadata helps search engines understand page content.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>If you'd like to know more, feel free to email me at: <a href="mailto:example@email.com">Example reen32269@gmail.com</a></p>
+            <figure>
+                <img src="example.jpg" alt="Illustration of web design on a computer screen" width="300">
+                <figcaption>An example image with descriptive alt text for accessibility.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Accessible Web Design. All rights reserved.</p>
+    </footer>
+</body>
+</html>
